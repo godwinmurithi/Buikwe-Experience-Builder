@@ -1,0 +1,38 @@
+{
+  "entrypoints": {
+    "widgets/filter-feature-layer/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": 362,
+          "names": [
+            "widgets/filter-feature-layer/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/filter-feature-layer/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/filter-feature-layer/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": 324,
+          "names": [
+            "widgets/filter-feature-layer/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/filter-feature-layer/src/setting/setting.tsx",
+            "./your-extensions/widgets/filter-feature-layer/src/setting/translations/default.ts"
+          ]
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "outputPath": "C:\\Users\\Godwi\\Desktop\\Murithi\\2023\\CTIAfrica\\arcgis-experience-builder-1.11\\ArcGISExperienceBuilder\\client\\dist-prod",
+  "publicPath": "",
+  "version": "5.75.0"
+}

@@ -1,0 +1,30 @@
+{
+  "1687784250808": {
+    "originalName": "ddv.png",
+    "fileName": "1687784250808.png",
+    "size": 44705,
+    "url": "${appResourceUrl}/images/background_setting/1687784250808.png",
+    "created": 1687784250808,
+    "resourcesPrefix": "images/background_setting",
+    "referedIds": [],
+    "originId": "1687784250808",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1000,
+    "originalHeight": 1000
+  },
+  "1687796173220": {
+    "originalName": "MicrosoftTeams-image.png",
+    "fileName": "1687796173220.png",
+    "size": 13056,
+    "url": "${appResourceUrl}/images/background_setting/1687796173220.png",
+    "created": 1687796173220,
+    "resourcesPrefix": "images/background_setting",
+    "referedIds": [],
+    "originId": "1687796173220",
+    "fileFormat": "image/png",
+    "isUseCompress": false,
+    "originalWidth": 1000,
+    "originalHeight": 500
+  }
+}

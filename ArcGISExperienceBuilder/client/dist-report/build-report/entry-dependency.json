@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "name": "widgets/filter-feature-layer/dist/runtime/widget",
+      "size": 8113
+    },
+    {
+      "name": "widgets/filter-feature-layer/dist/setting/setting",
+      "size": 4653
+    },
+    {
+      "name": "widgets/reset/dist/setting/setting",
+      "size": 4653
+    }
+  ],
+  "links": [
+    {
+      "source": "widgets/filter-feature-layer/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/filter-feature-layer/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/filter-feature-layer/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/filter-feature-layer/dist/setting/setting",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/filter-feature-layer/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/filter-feature-layer/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/reset/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/reset/dist/setting/setting",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/reset/dist/setting/setting",
+      "target": "jimu-ui/advanced/data-source-selector"
+    },
+    {
+      "source": "widgets/reset/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    }
+  ]
+}

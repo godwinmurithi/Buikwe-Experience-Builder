@@ -1,0 +1,32 @@
+{
+  "name": "filter-feature-layer",
+  "label": "Filter Feature Layer",
+  "type": "widget",
+  "version": "1.11.0",
+  "exbVersion": "1.11.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "This widget demonstrates how to filter a feature layer data source programmatically.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "canConsumeDataAction": true,
+    "dataActions": [
+      {
+        "type": "MY_DATA_ACTION",
+        "label": "My Data Action"
+      }
+    ]
+  },
+  "components": {
+    "main": {
+      "uri": "./widget.tsx"
+    }
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 300,
+    "height": 60
+  }
+}

@@ -1,0 +1,5331 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0",
+        "MEDIUM": "layout_51",
+        "SMALL": "layout_73"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "header": true,
+      "bodyBackgroundColor": "var(--light)",
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.8%",
+            "right": "77.5%",
+            "top": "1.7%",
+            "bottom": "1.8%",
+            "width": "21.7%",
+            "height": "96.5%"
+          },
+          "widgetId": "widget_126",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          },
+          "parent": "layout_0"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "22.5%",
+            "right": "0.9%",
+            "top": "1.7%",
+            "bottom": "42.3%",
+            "width": "76.6%",
+            "height": "56.0%"
+          },
+          "widgetId": "widget_146",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          },
+          "parent": "layout_0"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "22.5%",
+            "right": "0.9%",
+            "top": "57.9%",
+            "bottom": "1.8%",
+            "width": "76.6%",
+            "height": "40.3%"
+          },
+          "widgetId": "widget_165",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          },
+          "parent": "layout_0"
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "parent": {
+        "type": "pages",
+        "id": "page_0"
+      }
+    },
+    "layout_24": {
+      "type": "FIXED",
+      "order": [
+        "1"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1.2%",
+            "right": "23.8%",
+            "top": "12.3%",
+            "bottom": "-1.2%",
+            "width": "75.0%",
+            "height": "89.0%"
+          },
+          "widgetId": "widget_71",
+          "setting": {
+            "vCenter": false,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "height": "AUTO",
+              "width": "CUSTOM",
+              "left": false,
+              "right": true
+            },
+            "hCenter": false
+          },
+          "parent": "layout_24",
+          "isPending": false
+        }
+      },
+      "parent": {
+        "type": "header",
+        "id": "header"
+      }
+    },
+    "layout_25": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "bottom": true,
+              "top": false,
+              "width": "CUSTOM",
+              "height": "AUTO"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "4.00%",
+            "top": "5.00%",
+            "width": "92.00%",
+            "height": 30,
+            "right": 340,
+            "bottom": "86.4774%"
+          },
+          "widgetId": "widget_75",
+          "isPending": false,
+          "parent": "layout_25"
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "bottom": true,
+              "top": false,
+              "width": "CUSTOM",
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": "3.9968%",
+            "top": "14.0000%",
+            "width": "91.9988%",
+            "height": "8.0000%",
+            "right": "17px",
+            "bottom": "468px"
+          },
+          "widgetId": "widget_76",
+          "isPending": false,
+          "parent": "layout_25"
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "4.0000%",
+            "right": "21.0000%",
+            "top": "24.00%",
+            "bottom": "8.6667%",
+            "width": "92.00%",
+            "height": "71.00%"
+          },
+          "widgetId": "widget_77",
+          "parent": "layout_25"
+        }
+      },
+      "order": [
+        "1",
+        "2",
+        "3"
+      ],
+      "setting": {
+        "lockDescendants": true
+      },
+      "parent": {
+        "type": "dialog",
+        "id": "dialog_1"
+      }
+    },
+    "layout_27": {
+      "type": "COLUMN",
+      "order": [
+        "4",
+        "6",
+        "7"
+      ],
+      "content": {
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "272px",
+            "height": 163
+          },
+          "widgetId": "widget_203"
+        },
+        "6": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "width": "272px",
+            "height": 270
+          },
+          "widgetId": "widget_127",
+          "isPending": false
+        },
+        "7": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "width": "272px",
+            "height": 270
+          },
+          "widgetId": "widget_209",
+          "isPending": false
+        }
+      },
+      "parent": {
+        "type": "widget",
+        "id": "widget_126"
+      },
+      "label": "Default"
+    },
+    "layout_33": {
+      "type": "ROW",
+      "order": [
+        "2",
+        "1"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 8,
+            "width": 4,
+            "height": "600px"
+          },
+          "widgetId": "widget_148",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "parent": "layout_33"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 0,
+            "width": 8,
+            "height": "400px"
+          },
+          "widgetId": "widget_198",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "parent": "layout_33"
+        }
+      },
+      "parent": {
+        "type": "widget",
+        "id": "widget_146"
+      },
+      "label": "Default"
+    },
+    "layout_35": {
+      "type": "COLUMN",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "307px",
+            "height": 288
+          },
+          "widgetId": "widget_207"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "313px",
+            "height": 158
+          },
+          "widgetId": "widget_208",
+          "isPending": false
+        }
+      },
+      "setting": {
+        "space": 10
+      },
+      "parent": {
+        "type": "widget",
+        "id": "widget_148"
+      },
+      "label": "Default"
+    },
+    "layout_43": {
+      "type": "ROW",
+      "content": {
+        "4": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 4,
+            "width": 4,
+            "height": "270px"
+          },
+          "widgetId": "widget_210"
+        },
+        "5": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 4,
+            "height": "270px"
+          },
+          "widgetId": "widget_211"
+        },
+        "6": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 8,
+            "width": 4,
+            "height": "270px"
+          },
+          "widgetId": "widget_212"
+        }
+      },
+      "order": [
+        "4",
+        "5",
+        "6"
+      ],
+      "parent": {
+        "type": "widget",
+        "id": "widget_165"
+      },
+      "label": "Default"
+    },
+    "layout_50": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "11.0%",
+            "right": "22.5%",
+            "top": "50%",
+            "bottom": "10.8%",
+            "width": "66.00%",
+            "height": "78.3%"
+          },
+          "widgetId": "widget_71",
+          "setting": {
+            "vCenter": true,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "height": "AUTO",
+              "width": "CUSTOM",
+              "left": false,
+              "right": true
+            }
+          },
+          "parent": "layout_50"
+        }
+      },
+      "order": [
+        "1"
+      ],
+      "parent": {
+        "type": "header",
+        "id": "header"
+      }
+    },
+    "layout_51": {
+      "type": "FIXED",
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "50.1%",
+            "top": "0.0%",
+            "bottom": "33.4%",
+            "width": "100.00%",
+            "height": "100.00%"
+          },
+          "widgetId": "widget_200",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "3"
+      ],
+      "parent": {
+        "type": "pages",
+        "id": "page_0"
+      }
+    },
+    "layout_52": {
+      "type": "COLUMN",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "300px",
+            "height": 307
+          },
+          "widgetId": "widget_127",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "parent": "layout_52"
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "parent": {
+        "type": "widget",
+        "id": "widget_184"
+      },
+      "label": "Default"
+    },
+    "layout_55": {
+      "type": "ROW",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 7,
+            "width": 5,
+            "height": "600px"
+          },
+          "widgetId": "widget_187",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "parent": "layout_55"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 0,
+            "width": 7,
+            "height": "400px"
+          },
+          "widgetId": "widget_198",
+          "setting": {
+            "heightMode": "fit"
+          }
+        }
+      },
+      "order": [
+        "2",
+        "1"
+      ],
+      "parent": {
+        "type": "widget",
+        "id": "widget_185"
+      },
+      "label": "Default"
+    },
+    "layout_65": {
+      "type": "COLUMN",
+      "setting": {
+        "space": 10
+      },
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "361px",
+            "height": 314
+          },
+          "widgetId": "widget_188",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "isPending": false,
+          "parent": "layout_65"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "355px",
+            "height": "180.00px"
+          },
+          "widgetId": "widget_189",
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          },
+          "parent": "layout_65"
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ],
+      "parent": {
+        "type": "widget",
+        "id": "widget_187"
+      },
+      "label": "Default"
+    },
+    "layout_66": {
+      "type": "COLUMN",
+      "setting": {
+        "space": 0
+      },
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "50.00%",
+            "height": "60px"
+          },
+          "widgetId": "widget_157",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "width": "CUSTOM"
+            }
+          },
+          "parent": "layout_66"
+        }
+      },
+      "order": [
+        "1"
+      ],
+      "parent": {
+        "type": "widget",
+        "id": "widget_188"
+      },
+      "label": "Default"
+    },
+    "layout_70": {
+      "type": "COLUMN",
+      "setting": {
+        "padding": {
+          "number": [
+            10,
+            0,
+            10,
+            0
+          ],
+          "unit": "px"
+        }
+      },
+      "content": {},
+      "order": [],
+      "parent": {
+        "type": "widget",
+        "id": "widget_189"
+      },
+      "label": "Default"
+    },
+    "layout_71": {
+      "type": "ROW",
+      "content": {},
+      "order": [],
+      "parent": {
+        "type": "widget",
+        "id": "widget_190"
+      },
+      "label": "Default"
+    },
+    "layout_72": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "16.00%",
+            "right": "37.6888%",
+            "top": "16.50%",
+            "bottom": "9.0625%",
+            "width": "46.0113%",
+            "height": "74.2708%"
+          },
+          "widgetId": "widget_71",
+          "setting": {
+            "vCenter": true,
+            "autoProps": {
+              "top": false,
+              "bottom": true
+            }
+          },
+          "parent": "layout_72"
+        }
+      },
+      "order": [
+        "1"
+      ],
+      "parent": {
+        "type": "header",
+        "id": "header"
+      }
+    },
+    "layout_73": {
+      "type": "FIXED",
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "16.7%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.00%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_201",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "3"
+      ],
+      "parent": {
+        "type": "pages",
+        "id": "page_0"
+      }
+    },
+    "layout_94": {
+      "type": "FIXED",
+      "parent": {
+        "type": "widget",
+        "id": "widget_198"
+      },
+      "label": "Map FixedLayout",
+      "order": [],
+      "content": {}
+    },
+    "layout_95": {
+      "type": "FIXED",
+      "parent": {
+        "type": "widget",
+        "id": "widget_198"
+      },
+      "label": "Map FixedLayout"
+    },
+    "layout_96": {
+      "type": "FIXED",
+      "parent": {
+        "type": "widget",
+        "id": "widget_198"
+      },
+      "label": "Map FixedLayout"
+    },
+    "layout_97": {
+      "type": "COLUMN",
+      "setting": {
+        "padding": {
+          "number": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "unit": "px"
+        }
+      },
+      "order": [
+        "1",
+        "0",
+        "2"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "601px",
+            "height": "400px"
+          },
+          "widgetId": "widget_190"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "601px",
+            "height": "420.00px"
+          },
+          "widgetId": "widget_185"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "300px",
+            "height": "800.00px"
+          },
+          "widgetId": "widget_184"
+        }
+      },
+      "label": "Default"
+    },
+    "layout_98": {
+      "type": "COLUMN",
+      "order": [
+        "0",
+        "9",
+        "2",
+        "6"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": "400px"
+          },
+          "widgetId": "widget_198"
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "355px",
+            "height": 38
+          },
+          "widgetId": "widget_157",
+          "isPending": false
+        },
+        "6": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "300px",
+            "height": "200.00px"
+          },
+          "widgetId": "widget_202"
+        },
+        "9": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": "300px"
+          },
+          "widgetId": "widget_127"
+        }
+      },
+      "label": "Default"
+    },
+    "layout_99": {
+      "type": "COLUMN",
+      "order": [],
+      "content": {},
+      "setting": {
+        "padding": {
+          "number": [
+            20,
+            0,
+            20,
+            0
+          ],
+          "unit": "px"
+        }
+      },
+      "label": "Default"
+    }
+  },
+  "exbVersion": "1.11.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/morandi/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "monitor",
+  "widgets": {
+    "widget_71": {
+      "uri": "widgets/common/text/",
+      "version": "1.11.0",
+      "config": {
+        "text": "<p><strong style=\"font-size: 32px; color: var(--info-100); background-color: rgba(0, 0, 0, 0);\">MEDIICAL  STAFF</strong></p><p><strong style=\"font-size: 32px; color: var(--info-100); background-color: rgba(0, 0, 0, 0);\">MEDICAL STAFF</strong><strong style=\"font-size: 30px; color: var(--info-100); background-color: rgba(0, 0, 0, 0);\">﻿﻿</strong></p>",
+        "placeholder": "<p><span style=\"font-size: 28px; color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_71",
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_24",
+            "layoutItemId": "1"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "layoutId": "layout_50",
+            "layoutItemId": "1"
+          }
+        ],
+        "SMALL": [
+          {
+            "layoutId": "layout_72",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Text"
+    },
+    "widget_75": {
+      "uri": "widgets/common/text/",
+      "version": "1.11.0",
+      "config": {
+        "text": "<p><strong style=\"color: var(--dark-800); font-size: 24px;\">﻿TABLE</strong></p>",
+        "placeholder": "<p><strong style=\"color: var(--dark-800); font-size: 24px;\">Title</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_75",
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_25",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Text 2"
+    },
+    "widget_76": {
+      "uri": "widgets/common/text/",
+      "version": "1.11.0",
+      "config": {
+        "text": "",
+        "placeholder": "<p><span style=\"color: var(--dark-800); font-size: 16px;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_76",
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_25",
+            "layoutItemId": "2"
+          }
+        ]
+      },
+      "label": "Text 3"
+    },
+    "widget_77": {
+      "uri": "widgets/common/table/",
+      "version": "1.11.0",
+      "config": {
+        "layersConfig": [],
+        "arrangeType": "TABS"
+      },
+      "id": "widget_77",
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_25",
+            "layoutItemId": "3"
+          }
+        ]
+      },
+      "label": "Table"
+    },
+    "widget_126": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_126",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_27"
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_0",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Column"
+    },
+    "widget_127": {
+      "uri": "widgets/common/chart/",
+      "version": "1.11.0",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "donut",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "donut",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Medical_Staff"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "ObjectId",
+                  "outStatisticFieldName": "ObjectId_count"
+                }
+              ],
+              "orderByFields": [
+                "Medical_Staff ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "ObjectId",
+              "name": "ObjectId",
+              "x": "Medical_Staff",
+              "y": "ObjectId_count",
+              "innerRadius": 40,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 0,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other"
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": "No",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#A6382F",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "Yes",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--warning)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "MEDICAL  STAFF"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_127",
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "var(--dark)",
+          "width": "1px"
+        },
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_27",
+            "layoutItemId": "0"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "layoutId": "layout_52",
+            "layoutItemId": "0"
+          }
+        ],
+        "SMALL": [
+          {
+            "layoutId": "layout_74",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Chart",
+      "outputDataSources": [
+        "widget_127_ouput"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Medical_Staff",
+            "ObjectId"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_146": {
+      "uri": "widgets/layout/row/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_146",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_33"
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_0",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Row"
+    },
+    "widget_148": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": {
+          "distance": 10
+        },
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_148",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_35"
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_33",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Column 2"
+    },
+    "widget_157": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.11.0",
+      "config": {
+        "data": {
+          "type": "AUTO"
+        },
+        "display": {
+          "type": "navButtonGroup",
+          "navStyle": "default",
+          "standard": {
+            "showPageNumber": true,
+            "previousText": "",
+            "previousIcon": {
+              "svg": "<svg viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M2.479 5.47L8.019.162a.592.592 0 01.813 0 .534.534 0 010 .779L3.552 6l5.28 5.06a.534.534 0 010 .779.592.592 0 01-.813 0l-5.54-5.31a.726.726 0 010-1.058z\" fill=\"#000\"></path><path d=\"M0 0h12v12H0z\"></path></g></svg>",
+              "properties": {
+                "filename": "left-arrow-12",
+                "size": 12
+              }
+            },
+            "nextText": "",
+            "nextIcon": {
+              "svg": "<svg viewBox=\"0 0 12 12\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M9.521 5.47L3.981.162a.592.592 0 00-.813 0 .534.534 0 000 .779L8.448 6l-5.28 5.06a.534.534 0 000 .779.592.592 0 00.813 0l5.54-5.31a.726.726 0 000-1.058z\" fill=\"#000\"></path><path d=\"M0 0h12v12H0z\"></path></g></svg>",
+              "properties": {
+                "filename": "right-arrow-12",
+                "size": 12
+              }
+            }
+          },
+          "vertical": false,
+          "advanced": false,
+          "variant": null
+        }
+      },
+      "id": "widget_157",
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_40",
+            "layoutItemId": "1"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "layoutId": "layout_66",
+            "layoutItemId": "1"
+          }
+        ],
+        "SMALL": [
+          {
+            "layoutId": "layout_88",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Views Navigation"
+    },
+    "widget_165": {
+      "uri": "widgets/layout/row/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_165",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_43"
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_0",
+            "layoutItemId": "2"
+          }
+        ]
+      },
+      "label": "Row 2"
+    },
+    "widget_184": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_184",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_52"
+        }
+      },
+      "parent": {
+        "MEDIUM": [
+          {
+            "layoutId": "layout_51",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Column 5"
+    },
+    "widget_185": {
+      "uri": "widgets/layout/row/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_185",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_55"
+        }
+      },
+      "parent": {
+        "MEDIUM": [
+          {
+            "layoutId": "layout_51",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Row 3"
+    },
+    "widget_187": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": {
+          "distance": 10
+        },
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_187",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_65"
+        }
+      },
+      "parent": {
+        "MEDIUM": [
+          {
+            "layoutId": "layout_55",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Column 6"
+    },
+    "widget_188": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": {
+          "distance": 0
+        },
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_188",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_66"
+        }
+      },
+      "parent": {
+        "MEDIUM": [
+          {
+            "layoutId": "layout_65",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Column 7"
+    },
+    "widget_189": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              0,
+              10,
+              0
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_189",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_70"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "border": {
+          "type": "solid",
+          "color": "var(--light-400)",
+          "width": "1px"
+        }
+      },
+      "parent": {
+        "MEDIUM": [
+          {
+            "layoutId": "layout_65",
+            "layoutItemId": "1"
+          }
+        ]
+      },
+      "label": "Column 8"
+    },
+    "widget_190": {
+      "uri": "widgets/layout/row/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_190",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_71"
+        }
+      },
+      "parent": {
+        "MEDIUM": [
+          {
+            "layoutId": "layout_51",
+            "layoutItemId": "2"
+          }
+        ]
+      },
+      "label": "Row 4"
+    },
+    "widget_198": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.11.0",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": null
+      },
+      "id": "widget_198",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_94",
+          "MEDIUM": "layout_95",
+          "SMALL": "layout_96"
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_33",
+            "layoutItemId": "2"
+          }
+        ]
+      },
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "var(--dark)",
+          "width": "1px"
+        }
+      },
+      "label": "Map",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_200": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_200",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_97"
+        }
+      },
+      "label": "Column 9"
+    },
+    "widget_201": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_201",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_98"
+        }
+      },
+      "label": "Column 10"
+    },
+    "widget_202": {
+      "uri": "widgets/layout/column/",
+      "version": "1.11.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              20,
+              0,
+              20,
+              0
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_202",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_99"
+        }
+      },
+      "label": "Column 11"
+    },
+    "widget_203": {
+      "uri": "widgets/common/text/",
+      "version": "1.11.0",
+      "label": "Text 15",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 27px; color: rgb(255, 255, 255);\">HEALTH FACILITIES</strong></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size: 40px; color: rgb(255, 255, 255);\"><exp data-uniqueid=\"7c287362_7cbe_3f10_5853_6351695f1ef6\" data-dsid=\"dataSource_1-1890ba438d3-layer-7\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BObjectId%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BObjectId%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-1890ba438d3-layer-7%22%2C%22jimuFieldName%22%3A%22ObjectId%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿COUNT({ObjectId})﻿</span>﻿</exp></strong> </p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_203",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "ObjectId"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true,
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": "var(--dark-300)",
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_207": {
+      "uri": "widgets/common/table/",
+      "version": "1.11.0",
+      "label": "Table 2",
+      "config": {
+        "layersConfig": [
+          {
+            "id": "dataSource_1-1890ba438d3-layer-7-2",
+            "name": "HEALTH FACILITY",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "device_id",
+                "start_time",
+                "name_facility",
+                "name_incharge",
+                "telephone",
+                "email",
+                "Ownership_of_Health_Facility",
+                "Month_and_Year_of_Opening",
+                "Hours_of_operation",
+                "Opening_time",
+                "Closing_time",
+                "Level_of_Health_Facility",
+                "Type_of_Health_Facility",
+                "How_many_beds_does_the_Health_F",
+                "Laboratory_Services",
+                "Labaratory_Services_available",
+                "Who_is_the_head_of_this_departm",
+                "What_is_the_Telephone_number_of",
+                "Name_of_Data_Collector",
+                "end_time",
+                "VILLAGE",
+                "PARISH",
+                "SUBCOUNTY",
+                "COUNTY",
+                "DISTRICT",
+                "POP2002",
+                "x",
+                "y",
+                "Lab",
+                "LABIS",
+                "MACHINE_TYPE",
+                "LABIS_TYPE",
+                "LABIS_SATISFACTION",
+                "PHARMACY",
+                "Status",
+                "Drug_type",
+                "Medical_Staff",
+                "Equiped",
+                "Speciality",
+                "Experience",
+                "Availability",
+                "Evaluation"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "GlobalID",
+                "name": "GlobalID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "device_id",
+                "name": "device_id",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "device_id",
+                "format": null
+              },
+              {
+                "jimuName": "start_time",
+                "name": "start_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "start_time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "name_facility",
+                "name": "name_facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "name_facility",
+                "format": null
+              },
+              {
+                "jimuName": "name_incharge",
+                "name": "name_incharge",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "name_incharge",
+                "format": null
+              },
+              {
+                "jimuName": "telephone",
+                "name": "telephone",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "telephone",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "email",
+                "name": "email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "email",
+                "format": null
+              },
+              {
+                "jimuName": "Ownership_of_Health_Facility",
+                "name": "Ownership_of_Health_Facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Ownership of Health Facility",
+                "format": null
+              },
+              {
+                "jimuName": "Month_and_Year_of_Opening",
+                "name": "Month_and_Year_of_Opening",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Month and Year of Opening",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Hours_of_operation",
+                "name": "Hours_of_operation",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Hours of operation",
+                "format": null
+              },
+              {
+                "jimuName": "Opening_time",
+                "name": "Opening_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Opening time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Closing_time",
+                "name": "Closing_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Closing time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Level_of_Health_Facility",
+                "name": "Level_of_Health_Facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Level of Health Facility",
+                "format": null
+              },
+              {
+                "jimuName": "Type_of_Health_Facility",
+                "name": "Type_of_Health_Facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type of Health Facility",
+                "format": null
+              },
+              {
+                "jimuName": "How_many_beds_does_the_Health_F",
+                "name": "How_many_beds_does_the_Health_F",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "How many beds does the Health Facility have?",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Laboratory_Services",
+                "name": "Laboratory_Services",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Laboratory Services",
+                "format": null
+              },
+              {
+                "jimuName": "Labaratory_Services_available",
+                "name": "Labaratory_Services_available",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Labaratory Services available",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Who_is_the_head_of_this_departm",
+                "name": "Who_is_the_head_of_this_departm",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Who is the head of this department?",
+                "format": null
+              },
+              {
+                "jimuName": "What_is_the_Telephone_number_of",
+                "name": "What_is_the_Telephone_number_of",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "What is the Telephone number of the head of this department?",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Name_of_Data_Collector",
+                "name": "Name_of_Data_Collector",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name of Data Collector",
+                "format": null
+              },
+              {
+                "jimuName": "end_time",
+                "name": "end_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "end_time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "CreationDate",
+                "name": "CreationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "CreationDate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Creator",
+                "name": "Creator",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Creator",
+                "format": null
+              },
+              {
+                "jimuName": "EditDate",
+                "name": "EditDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "EditDate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "Editor",
+                "name": "Editor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Editor",
+                "format": null
+              },
+              {
+                "jimuName": "VILLAGE",
+                "name": "VILLAGE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "VILLAGE",
+                "format": null
+              },
+              {
+                "jimuName": "PARISH",
+                "name": "PARISH",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PARISH",
+                "format": null
+              },
+              {
+                "jimuName": "SUBCOUNTY",
+                "name": "SUBCOUNTY",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "SUBCOUNTY",
+                "format": null
+              },
+              {
+                "jimuName": "COUNTY",
+                "name": "COUNTY",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "COUNTY",
+                "format": null
+              },
+              {
+                "jimuName": "DISTRICT",
+                "name": "DISTRICT",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DISTRICT",
+                "format": null
+              },
+              {
+                "jimuName": "POP2002",
+                "name": "POP2002",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "POP2002",
+                "format": null
+              },
+              {
+                "jimuName": "x",
+                "name": "x",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "x",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "y",
+                "name": "y",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "y",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Lab",
+                "name": "Lab",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Lab",
+                "format": null
+              },
+              {
+                "jimuName": "LABIS",
+                "name": "LABIS",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LABIS",
+                "format": null
+              },
+              {
+                "jimuName": "MACHINE_TYPE",
+                "name": "MACHINE_TYPE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "MACHINE TYPE",
+                "format": null
+              },
+              {
+                "jimuName": "LABIS_TYPE",
+                "name": "LABIS_TYPE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LABIS TYPE",
+                "format": null
+              },
+              {
+                "jimuName": "LABIS_SATISFACTION",
+                "name": "LABIS_SATISFACTION",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LABIS SATISFACTION",
+                "format": null
+              },
+              {
+                "jimuName": "PHARMACY",
+                "name": "PHARMACY",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PHARMACY",
+                "format": null
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null
+              },
+              {
+                "jimuName": "Drug_type",
+                "name": "Drug_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Drug type",
+                "format": null
+              },
+              {
+                "jimuName": "Medical_Staff",
+                "name": "Medical_Staff",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Medical Staff",
+                "format": null
+              },
+              {
+                "jimuName": "Equiped",
+                "name": "Equiped",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Equiped",
+                "format": null
+              },
+              {
+                "jimuName": "Speciality",
+                "name": "Speciality",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Speciality",
+                "format": null
+              },
+              {
+                "jimuName": "Experience",
+                "name": "Experience",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Experience",
+                "format": null
+              },
+              {
+                "jimuName": "Availability",
+                "name": "Availability",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Availability",
+                "format": null
+              },
+              {
+                "jimuName": "Evaluation",
+                "name": "Evaluation",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Evaluation",
+                "format": null
+              },
+              {
+                "jimuName": "ObjectId",
+                "name": "ObjectId",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectId",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "device_id",
+                "name": "device_id",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "device_id",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": false
+              },
+              {
+                "jimuName": "start_time",
+                "name": "start_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "start_time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": false
+              },
+              {
+                "jimuName": "name_facility",
+                "name": "name_facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "name_facility",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "name_incharge",
+                "name": "name_incharge",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "name_incharge",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "telephone",
+                "name": "telephone",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "telephone",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "email",
+                "name": "email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "email",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Ownership_of_Health_Facility",
+                "name": "Ownership_of_Health_Facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Ownership of Health Facility",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Month_and_Year_of_Opening",
+                "name": "Month_and_Year_of_Opening",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Month and Year of Opening",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Hours_of_operation",
+                "name": "Hours_of_operation",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Hours of operation",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Opening_time",
+                "name": "Opening_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Opening time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Closing_time",
+                "name": "Closing_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Closing time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Level_of_Health_Facility",
+                "name": "Level_of_Health_Facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Level of Health Facility",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Type_of_Health_Facility",
+                "name": "Type_of_Health_Facility",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type of Health Facility",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "How_many_beds_does_the_Health_F",
+                "name": "How_many_beds_does_the_Health_F",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "How many beds does the Health Facility have?",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Laboratory_Services",
+                "name": "Laboratory_Services",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Laboratory Services",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Labaratory_Services_available",
+                "name": "Labaratory_Services_available",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Labaratory Services available",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Who_is_the_head_of_this_departm",
+                "name": "Who_is_the_head_of_this_departm",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Who is the head of this department?",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "What_is_the_Telephone_number_of",
+                "name": "What_is_the_Telephone_number_of",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "What is the Telephone number of the head of this department?",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Name_of_Data_Collector",
+                "name": "Name_of_Data_Collector",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name of Data Collector",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "end_time",
+                "name": "end_time",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "end_time",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "VILLAGE",
+                "name": "VILLAGE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "VILLAGE",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PARISH",
+                "name": "PARISH",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PARISH",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "SUBCOUNTY",
+                "name": "SUBCOUNTY",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "SUBCOUNTY",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "COUNTY",
+                "name": "COUNTY",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "COUNTY",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "DISTRICT",
+                "name": "DISTRICT",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DISTRICT",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "POP2002",
+                "name": "POP2002",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "POP2002",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "x",
+                "name": "x",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "x",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "y",
+                "name": "y",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "y",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Lab",
+                "name": "Lab",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Lab",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "LABIS",
+                "name": "LABIS",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LABIS",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "MACHINE_TYPE",
+                "name": "MACHINE_TYPE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "MACHINE TYPE",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "LABIS_TYPE",
+                "name": "LABIS_TYPE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LABIS TYPE",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "LABIS_SATISFACTION",
+                "name": "LABIS_SATISFACTION",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LABIS SATISFACTION",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "PHARMACY",
+                "name": "PHARMACY",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PHARMACY",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Drug_type",
+                "name": "Drug_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Drug type",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Medical_Staff",
+                "name": "Medical_Staff",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Medical Staff",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Equiped",
+                "name": "Equiped",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Equiped",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Speciality",
+                "name": "Speciality",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Speciality",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Experience",
+                "name": "Experience",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Experience",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Availability",
+                "name": "Availability",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Availability",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "Evaluation",
+                "name": "Evaluation",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Evaluation",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachements": false,
+            "enableEdit": false,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": "",
+            "enableRefresh": true,
+            "enableSelect": true,
+            "selectMode": "MULTIPLE"
+          }
+        ],
+        "arrangeType": "TABS"
+      },
+      "id": "widget_207",
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "device_id",
+            "start_time",
+            "name_facility",
+            "name_incharge",
+            "telephone",
+            "email",
+            "Ownership_of_Health_Facility",
+            "Month_and_Year_of_Opening",
+            "Hours_of_operation",
+            "Opening_time",
+            "Closing_time",
+            "Level_of_Health_Facility",
+            "Type_of_Health_Facility",
+            "How_many_beds_does_the_Health_F",
+            "Laboratory_Services",
+            "Labaratory_Services_available",
+            "Who_is_the_head_of_this_departm",
+            "What_is_the_Telephone_number_of",
+            "Name_of_Data_Collector",
+            "end_time",
+            "VILLAGE",
+            "PARISH",
+            "SUBCOUNTY",
+            "COUNTY",
+            "DISTRICT",
+            "POP2002",
+            "x",
+            "y",
+            "Lab",
+            "LABIS",
+            "MACHINE_TYPE",
+            "LABIS_TYPE",
+            "LABIS_SATISFACTION",
+            "PHARMACY",
+            "Status",
+            "Drug_type",
+            "Medical_Staff",
+            "Equiped",
+            "Speciality",
+            "Experience",
+            "Availability",
+            "Evaluation"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_208": {
+      "uri": "widgets/filter-feature-layer/",
+      "version": "1.11.0",
+      "label": "Filter Feature Layer",
+      "config": {
+        "filterField": "name_facility"
+      },
+      "id": "widget_208",
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": "${appResourceUrl}/images/background_setting/1687204679142.png",
+            "originalUrl": "${appResourceUrl}/images/background_setting/1687204679142.png",
+            "fileName": "1687204679142.png",
+            "originalName": "MicrosoftTeams-image.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1687204679142",
+            "isUseCompress": false,
+            "originalWidth": 1000,
+            "originalHeight": 500
+          }
+        },
+        "borderRadius": null,
+        "border": {
+          "color": "var(--dark-300)",
+          "type": "solid",
+          "width": "2px"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_209": {
+      "uri": "widgets/common/chart/",
+      "version": "1.11.0",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "donut",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "donut",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Speciality"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "ObjectId",
+                  "outStatisticFieldName": "ObjectId_count"
+                }
+              ],
+              "orderByFields": [
+                "Speciality ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "ObjectId",
+              "name": "ObjectId",
+              "x": "Speciality",
+              "y": "ObjectId_count",
+              "innerRadius": 40,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 0,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other"
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": "Clinicians",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#A6382F",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "Medical Officers",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--warning)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "N/a",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--danger-500)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "Nurses",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#D18332",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "Surgeon",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--success-600)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "SPECIALITY"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_209",
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "var(--dark)",
+          "width": "1px"
+        },
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_27",
+            "layoutItemId": "0"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "layoutId": "layout_52",
+            "layoutItemId": "0"
+          }
+        ],
+        "SMALL": [
+          {
+            "layoutId": "layout_74",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Chart 6",
+      "outputDataSources": [
+        "dataSource_2"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Speciality",
+            "ObjectId"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_210": {
+      "uri": "widgets/common/chart/",
+      "version": "1.11.0",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "donut",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "donut",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Experience"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "ObjectId",
+                  "outStatisticFieldName": "ObjectId_count"
+                }
+              ],
+              "orderByFields": [
+                "Experience ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "ObjectId",
+              "name": "ObjectId",
+              "x": "Experience",
+              "y": "ObjectId_count",
+              "innerRadius": 40,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 0,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other"
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": "1yr",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--danger)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "3yrs",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--success-600)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "4yrs",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DF6B35",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "5yrs",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#DBCF4E",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "7yrs",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--warning)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "N/a",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#8257C2",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "EXPERIENCE"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_210",
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "var(--dark)",
+          "width": "1px"
+        },
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_27",
+            "layoutItemId": "0"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "layoutId": "layout_52",
+            "layoutItemId": "0"
+          }
+        ],
+        "SMALL": [
+          {
+            "layoutId": "layout_74",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Chart 7",
+      "outputDataSources": [
+        "dataSource_3"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Experience",
+            "ObjectId"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_211": {
+      "uri": "widgets/common/chart/",
+      "version": "1.11.0",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "donut",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "donut",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Availability"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "ObjectId",
+                  "outStatisticFieldName": "ObjectId_count"
+                }
+              ],
+              "orderByFields": [
+                "Availability ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "ObjectId",
+              "name": "ObjectId",
+              "x": "Availability",
+              "y": "ObjectId_count",
+              "innerRadius": 40,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 0,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other"
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": "Fulltime",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#A6382F",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "N/a",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--warning)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "On Leave",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--danger)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "Part Time",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--success-600)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "AVAILABILITY"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_211",
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "var(--dark)",
+          "width": "1px"
+        },
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_27",
+            "layoutItemId": "0"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "layoutId": "layout_52",
+            "layoutItemId": "0"
+          }
+        ],
+        "SMALL": [
+          {
+            "layoutId": "layout_74",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Chart 8",
+      "outputDataSources": [
+        "dataSource_4"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Availability",
+            "ObjectId"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_212": {
+      "uri": "widgets/common/chart/",
+      "version": "1.11.0",
+      "config": {
+        "tools": {
+          "cursorEnable": false
+        },
+        "template": "donut",
+        "webChart": {
+          "version": "1.0.0",
+          "id": "donut",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "Evaluation"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "ObjectId",
+                  "outStatisticFieldName": "ObjectId_count"
+                }
+              ],
+              "orderByFields": [
+                "Evaluation ASC"
+              ]
+            }
+          },
+          "series": [
+            {
+              "type": "pieSeries",
+              "colorType": "colorMatch",
+              "id": "ObjectId",
+              "name": "ObjectId",
+              "x": "Evaluation",
+              "y": "ObjectId_count",
+              "innerRadius": 40,
+              "startAngle": 0,
+              "endAngle": 360,
+              "displayNumericValueOnDataLabel": true,
+              "displayPercentageOnDataLabel": false,
+              "displayNumericValueOnTooltip": true,
+              "displayPercentageOnTooltip": true,
+              "dataLabelsOffset": 0,
+              "sliceGrouping": {
+                "percentageThreshold": 0,
+                "groupName": "Other"
+              },
+              "numericValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "percentValueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 3
+                }
+              },
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-100)",
+                  "width": 1
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "bold",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "slices": [
+                {
+                  "sliceId": "Monthly",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "#A6382F",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "N/a",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--warning)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "Quartely",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--success-600)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                },
+                {
+                  "sliceId": "Yearly",
+                  "fillSymbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": "var(--danger)",
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": "var(--light-100)",
+                      "width": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "background": "var(--white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 24,
+                "style": "normal",
+                "weight": "bold",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "EVALUATON"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": false,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--dark-800)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 20,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--dark-800)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 14,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "right"
+          }
+        }
+      },
+      "id": "widget_212",
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "var(--dark)",
+          "width": "1px"
+        },
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "parent": {
+        "LARGE": [
+          {
+            "layoutId": "layout_27",
+            "layoutItemId": "0"
+          }
+        ],
+        "MEDIUM": [
+          {
+            "layoutId": "layout_52",
+            "layoutItemId": "0"
+          }
+        ],
+        "SMALL": [
+          {
+            "layoutId": "layout_74",
+            "layoutItemId": "0"
+          }
+        ]
+      },
+      "label": "Chart 9",
+      "outputDataSources": [
+        "dataSource_5"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Evaluation",
+            "ObjectId"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {
+    "dialog_1": {
+      "id": "dialog_1",
+      "mode": "FIXED",
+      "sizeMode": {
+        "LARGE": {
+          "position": "CENTER",
+          "width": "800px",
+          "height": "600px"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--dark-900)",
+      "layout": {
+        "LARGE": "layout_25"
+      },
+      "index": 0,
+      "isSplash": false,
+      "closeWhenClickOverlay": true,
+      "label": "Window"
+    }
+  },
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Medical Staff MAP",
+      "itemId": "a668d0c7fcb042468167fc53547432e7",
+      "portalUrl": "https://cti-a.maps.arcgis.com"
+    },
+    "widget_127_ouput": {
+      "id": "widget_127_ouput",
+      "type": "FEATURE_LAYER",
+      "label": "Chart statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Medical_Staff": {
+            "jimuName": "Medical_Staff",
+            "name": "Medical_Staff",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Medical Staff",
+            "format": null,
+            "originFields": [
+              "Medical_Staff"
+            ]
+          },
+          "ObjectId_count": {
+            "jimuName": "ObjectId_count",
+            "name": "ObjectId_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectId_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "ObjectId"
+            ]
+          }
+        }
+      }
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "FEATURE_LAYER",
+      "label": "Chart 6 statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Speciality": {
+            "jimuName": "Speciality",
+            "name": "Speciality",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Speciality",
+            "format": null,
+            "originFields": [
+              "Speciality"
+            ]
+          },
+          "ObjectId_count": {
+            "jimuName": "ObjectId_count",
+            "name": "ObjectId_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectId_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "ObjectId"
+            ]
+          }
+        }
+      }
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "FEATURE_LAYER",
+      "label": "Chart 7 statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Experience": {
+            "jimuName": "Experience",
+            "name": "Experience",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Experience",
+            "format": null,
+            "originFields": [
+              "Experience"
+            ]
+          },
+          "ObjectId_count": {
+            "jimuName": "ObjectId_count",
+            "name": "ObjectId_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectId_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "ObjectId"
+            ]
+          }
+        }
+      }
+    },
+    "dataSource_4": {
+      "id": "dataSource_4",
+      "type": "FEATURE_LAYER",
+      "label": "Chart 8 statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Availability": {
+            "jimuName": "Availability",
+            "name": "Availability",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Availability",
+            "format": null,
+            "originFields": [
+              "Availability"
+            ]
+          },
+          "ObjectId_count": {
+            "jimuName": "ObjectId_count",
+            "name": "ObjectId_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectId_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "ObjectId"
+            ]
+          }
+        }
+      }
+    },
+    "dataSource_5": {
+      "id": "dataSource_5",
+      "type": "FEATURE_LAYER",
+      "label": "Chart 9 statistics",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "objectid",
+        "fields": {
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Evaluation": {
+            "jimuName": "Evaluation",
+            "name": "Evaluation",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Evaluation",
+            "format": null,
+            "originFields": [
+              "Evaluation"
+            ]
+          },
+          "ObjectId_count": {
+            "jimuName": "ObjectId_count",
+            "name": "ObjectId_count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectId_count",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "ObjectId"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_127",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1687205234649",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "widget_127_ouput",
+              "mainDataSourceId": "widget_127_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "widget_127_ouput",
+              "mainDataSourceId": "widget_127_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Medical_Staff"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-filter-1687205261669",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "widget_127_ouput",
+              "mainDataSourceId": "widget_127_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "widget_127_ouput",
+              "mainDataSourceId": "widget_127_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Medical_Staff"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-flash-1687205285373",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "widget_127_ouput",
+              "mainDataSourceId": "widget_127_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "widget_127_ouput",
+              "mainDataSourceId": "widget_127_ouput",
+              "rootDataSourceId": null,
+              "fields": [
+                "Medical_Staff"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Medical_Staff"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_6": {
+      "id": "messageConfig_6",
+      "widgetId": "widget_207",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1687250309124",
+          "messageWidgetId": "widget_207",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-flash-1687250317563",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_207",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-filter-1687250328158",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_207",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_8": {
+      "id": "messageConfig_8",
+      "widgetId": "widget_198",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1687859460996",
+          "messageWidgetId": "widget_198",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-188d7e3086f-layer-7",
+              "mainDataSourceId": "dataSource_1-188d7e3086f-layer-7",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.11.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_9": {
+      "id": "messageConfig_9",
+      "widgetId": "widget_209",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1687205234649",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2",
+              "mainDataSourceId": "dataSource_2",
+              "rootDataSourceId": null,
+              "fields": [
+                "Speciality"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Speciality"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_2",
+              "mainDataSourceId": "dataSource_2",
+              "rootDataSourceId": null,
+              "fields": [
+                "Speciality"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Speciality"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-filter-1687205261669",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2",
+              "mainDataSourceId": "dataSource_2",
+              "rootDataSourceId": null,
+              "fields": [
+                "Speciality"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Speciality"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_2",
+              "mainDataSourceId": "dataSource_2",
+              "rootDataSourceId": null,
+              "fields": [
+                "Speciality"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Speciality"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-flash-1687205285373",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2",
+              "mainDataSourceId": "dataSource_2",
+              "rootDataSourceId": null,
+              "fields": [
+                "Speciality"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Speciality"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_2",
+              "mainDataSourceId": "dataSource_2",
+              "rootDataSourceId": null,
+              "fields": [
+                "Speciality"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Speciality"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_10": {
+      "id": "messageConfig_10",
+      "widgetId": "widget_210",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1687205234649",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3",
+              "mainDataSourceId": "dataSource_3",
+              "rootDataSourceId": null,
+              "fields": [
+                "Experience"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Experience"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_3",
+              "mainDataSourceId": "dataSource_3",
+              "rootDataSourceId": null,
+              "fields": [
+                "Experience"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Experience"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-filter-1687205261669",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3",
+              "mainDataSourceId": "dataSource_3",
+              "rootDataSourceId": null,
+              "fields": [
+                "Experience"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Experience"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_3",
+              "mainDataSourceId": "dataSource_3",
+              "rootDataSourceId": null,
+              "fields": [
+                "Experience"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Experience"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-flash-1687205285373",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3",
+              "mainDataSourceId": "dataSource_3",
+              "rootDataSourceId": null,
+              "fields": [
+                "Experience"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Experience"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_3",
+              "mainDataSourceId": "dataSource_3",
+              "rootDataSourceId": null,
+              "fields": [
+                "Experience"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Experience"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_11": {
+      "id": "messageConfig_11",
+      "widgetId": "widget_211",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1687205234649",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_4",
+              "mainDataSourceId": "dataSource_4",
+              "rootDataSourceId": null,
+              "fields": [
+                "Availability"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Availability"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_4",
+              "mainDataSourceId": "dataSource_4",
+              "rootDataSourceId": null,
+              "fields": [
+                "Availability"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Availability"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-filter-1687205261669",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_4",
+              "mainDataSourceId": "dataSource_4",
+              "rootDataSourceId": null,
+              "fields": [
+                "Availability"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Availability"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_4",
+              "mainDataSourceId": "dataSource_4",
+              "rootDataSourceId": null,
+              "fields": [
+                "Availability"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Availability"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-flash-1687205285373",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_4",
+              "mainDataSourceId": "dataSource_4",
+              "rootDataSourceId": null,
+              "fields": [
+                "Availability"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Availability"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_4",
+              "mainDataSourceId": "dataSource_4",
+              "rootDataSourceId": null,
+              "fields": [
+                "Availability"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Availability"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_12": {
+      "id": "messageConfig_12",
+      "widgetId": "widget_212",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1687205234649",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_5",
+              "mainDataSourceId": "dataSource_5",
+              "rootDataSourceId": null,
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_5",
+              "mainDataSourceId": "dataSource_5",
+              "rootDataSourceId": null,
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-filter-1687205261669",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_5",
+              "mainDataSourceId": "dataSource_5",
+              "rootDataSourceId": null,
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_5",
+              "mainDataSourceId": "dataSource_5",
+              "rootDataSourceId": null,
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "actionId": "widget_198-flash-1687205285373",
+          "widgetId": "widget_198",
+          "messageWidgetId": "widget_127",
+          "actionName": "flash",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_5",
+              "mainDataSourceId": "dataSource_5",
+              "rootDataSourceId": null,
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.11.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_5",
+              "mainDataSourceId": "dataSource_5",
+              "rootDataSourceId": null,
+              "fields": [
+                "Evaluation"
+              ]
+            },
+            {
+              "dataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "mainDataSourceId": "dataSource_1-1890ba438d3-layer-7",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Evaluation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "timestamp": 1688119487477,
+  "header": {
+    "layout": {
+      "LARGE": "layout_24",
+      "MEDIUM": "layout_50",
+      "SMALL": "layout_72"
+    },
+    "height": {
+      "LARGE": "60px"
+    },
+    "backgroundColor": "var(--primary-900)"
+  },
+  "attributes": {
+    "portalUrl": "https://cti-a.maps.arcgis.com"
+  },
+  "sharedThemeVariables": null,
+  "originExbVersion": "1.11.0",
+  "customTheme": {}
+}
